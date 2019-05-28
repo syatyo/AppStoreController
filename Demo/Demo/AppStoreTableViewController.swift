@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AppStoreNavigationController: UITableViewController {
+class AppStoreTableViewController: UITableViewController {
     
     private let item = UIButton(type: .contactAdd)
     private let model = DemoModel(count: 30)

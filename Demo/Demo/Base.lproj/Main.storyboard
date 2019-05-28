@@ -12,7 +12,7 @@
         <!--AppStore Style-->
         <scene sceneID="Rk4-Wc-un6">
             <objects>
-                <tableViewController id="2OL-OZ-HLV" customClass="AppStoreNavigationController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="2OL-OZ-HLV" customClass="AppStoreTableViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="8iG-8P-Owq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
