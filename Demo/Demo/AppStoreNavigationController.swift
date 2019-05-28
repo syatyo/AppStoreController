@@ -27,7 +27,7 @@ class AppStoreNavigationController: UITableViewController {
         item.translatesAutoresizingMaskIntoConstraints = false
         
         item.rightAnchor.constraint(equalTo: navigationBar.rightAnchor, constant: -16).isActive = true
-        item.bottomAnchor.constraint(equalTo: navigationBar.bottomAnchor, constant: -12).isActive = true
+        item.bottomAnchor.constraint(equalTo: navigationBar.bottomAnchor, constant: -10).isActive = true
         item.heightAnchor.constraint(equalToConstant: 30).isActive = true
         item.widthAnchor.constraint(equalToConstant: 30).isActive = true
     }
