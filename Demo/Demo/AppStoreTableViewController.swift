@@ -8,9 +8,10 @@
 
 import UIKit
 
-class AppStoreNavigationController: UITableViewController {
+class AppStoreTableViewController: UITableViewController {
     
     private let item = UIButton(type: .contactAdd)
+    private let model = DemoModel(count: 30)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,4 +33,19 @@ class AppStoreNavigationController: UITableViewController {
         item.widthAnchor.constraint(equalToConstant: 30).isActive = true
     }
 
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return model.users.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        cell.textLabel?.text = model.users[indexPath.row].id
+        cell.detailTextLabel?.text = model.users[indexPath.row].age.description
+        return cell
+    }
+    
 }
