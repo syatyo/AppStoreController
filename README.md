@@ -14,3 +14,9 @@ guard let largeTitleView = navigationBar.subviews.first(where: { String(describi
 return
 }
 ```
+
+# Top
+<img width="250" alt="スクリーンショット 2019-05-28 23 54 53" src="https://user-images.githubusercontent.com/9734876/58488320-206aca80-81a4-11e9-9d8e-c57953d2d4c5.png">
+
+# Scrolled
+<img width="250" alt="スクリーンショット 2019-05-28 23 54 58" src="https://user-images.githubusercontent.com/9734876/58488335-22348e00-81a4-11e9-9e8d-68e58173dfa8.png">
